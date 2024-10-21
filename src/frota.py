@@ -5,7 +5,7 @@ class Carro:
     consumo_medio: float
     __odometro = 0.0
     __motor_on = False
-    __tanque: float
+    __tanque: float 
 
     def __init__(self, modelo: str, marca: str, cor: str,
                  odometro: float, motor: bool, consumo_medio: float, tanque: float):
